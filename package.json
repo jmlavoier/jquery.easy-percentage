@@ -1,0 +1,29 @@
+{
+  "name": "jquery.easy-percentage",
+  "version": "0.0.1",
+  "description": "Easy percentage on grids",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmlavoier/jquery.easy-percentage.git"
+  },
+  "keywords": [
+    "jquery",
+    "percentage",
+    ""
+  ],
+  "author": "jmlavoier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "95b7001bb440192b6ea51cba0bfba4b662b8fb62",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
