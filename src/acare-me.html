@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Testes JS </title>
+	</head>
+	<body>
+		<script>
+			var scareMe = function () {
+				alert("Boo!");
+
+				scareMe = function () {
+					alert("Double boo!");
+				};
+			};
+
+			scareMe.property = "properly";
+
+			var prank = scareMe;
+
+			var spooky = {
+				boo: scareMe
+			};
+
+			prank();
+			prank();
+			console.log(prank.property);
+
+			spooky.boo();
+			spooky.boo();
+			console.log(spooky.boo.property);
+			
+
+			scareMe();
+			scareMe();
+			console.log(scareMe.property);
+
+
+		</script>
+	</body>
+</html>

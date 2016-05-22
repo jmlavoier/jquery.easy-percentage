@@ -21,7 +21,7 @@
   "gitHead": "95b7001bb440192b6ea51cba0bfba4b662b8fb62",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "uglify-js": "^2.6.2"
+    "grunt-contrib-uglify": "^1.0.1"
   },
   "dependencies": {
     "jquery": "^2.2.4"
